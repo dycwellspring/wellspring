@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Quiénes Somos | Colegio Wellspring</title>
+    <meta name="description" content="Conoce la historia, misión, visión y valores del Colegio Wellspring. Nos comprometemos con una educación integral y el bienestar de nuestros alumnos en Pilar.">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="http://www.wellspring.com.ar/quienes-somos.html">
+
+    <meta property="og:title" content="Quiénes Somos | Colegio Wellspring">
+    <meta property="og:description" content="Conoce nuestra historia y los pilares que nos definen: misión, visión y valores.">
+    <meta property="og:image" content="img/historia.jpeg"> 
+    <meta property="og:url" content="http://www.wellspring.com.ar/quienes-somos.html">
+    <meta property="og:type" content="article">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Quiénes Somos | Colegio Wellspring">
+    <meta name="twitter:description" content="Educación integral en Pilar con foco en valores y bienestar.">
+    <meta name="twitter:image" content="img/historia.jpeg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="preload" as="image" href="img/NuestroColegioHero.jpg">
+    <link rel="stylesheet" href="css/style.css"> 
+    <link rel="icon" type="image/jpeg" href="img/favicon.jpeg">
+</head>
+<body class="page-body fixed-blue-header"> 
+   <header class="main-header" id="main-header">
+        <div class="header-container">
+            <a href="index.html" class="logo-link">
+                <img src="img/logo_wellspring.png" alt="Logo del Colegio Wellspring" class="logo">
+            </a>
+            
+            <nav id="desktop-nav" class="desktop-nav">
+                <a href="index.html" class="nav-link home-icon-link" aria-label="Ir a la página de inicio">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="home-icon" fill="none" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 9.75L12 4l9 5.75V20a1 1 0 01-1 1h-6v-6H10v6H4a1 1 0 01-1-1V9.75z" />
+                    </svg>
+                </a>
+                
+                <div class="dropdown-menu">
+                    <a href="quienes-somos.html" class="nav-link dropdown-toggle nav-link-activo" aria-expanded="false" aria-controls="qs-submenu-desktop"> 
+                        <span>Nuestro Colegio</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="dropdown-icon" fill="none" viewBox="0 0 24 24"> 
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                        </svg>
+                    </a>
+                    <div id="qs-submenu-desktop" class="dropdown-submenu">
+                        <a href="quienes-somos.html#historia" class="submenu-link">Historia</a> 
+                        <a href="quienes-somos.html#infra" class="submenu-link">Infraestructura</a>
+                        <a href="quienes-somos.html#mision" class="submenu-link">Nuestros Pilares</a>
+                    </div>
+                </div>
+
+                <div class="dropdown-menu">
+                    <a href="index.html#niveles" class="nav-link dropdown-toggle" aria-expanded="false" aria-controls="niveles-submenu-desktop">
+                        <span>Académico</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="dropdown-icon" fill="none" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                        </svg>
+                    </a>
+                    <div id="niveles-submenu-desktop" class="dropdown-submenu">
+                        <a href="jardin.html" class="submenu-link">Kinder</a>
+                        <a href="primaria.html" class="submenu-link">Primaria</a>
+                        <a href="secundaria.html" class="submenu-link">Secundaria</a>
+                    </div>
+                </div>
+
+                <a href="dptos.html" class="nav-link">Departamentos</a>
+                <a href="admisiones.html" class="nav-link">Admisiones</a>
+                <a href="contacto.html" class="nav-link">Contacto</a>
+            </nav>
+
+            <button id="menu-btn" class="menu-toggle-btn" aria-label="Abrir menú de navegación" aria-controls="mobile-menu" aria-expanded="false">
+                <svg id="icon-open" class="menu-icon" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+                </svg>
+                <svg id="icon-close" class="menu-icon menu-icon-close hidden" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                </svg>
+            </button>
+        </div>
+          
+        <nav id="mobile-menu" class="mobile-nav-menu hidden">
+    
+            <button id="qs-btn" class="mobile-nav-link menu-toggle-button" aria-expanded="false" aria-controls="qs-submenu">
+                <span>Nuestro Colegio</span>
+                <svg xmlns="http://www.w3.org/2000/svg" class="mobile-arrow-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                </svg>
+            </button>
+            <div id="qs-submenu" class="mobile-submenu hidden"> 
+                <a href="quienes-somos.html#historia" class="mobile-submenu-link">Historia</a>
+                <a href="quienes-somos.html#infra" class="mobile-submenu-link">Infraestructura</a>
+                <a href="quienes-somos.html#mision" class="mobile-submenu-link">Nuestros Pilares</a>
+            </div>
+
+            <button id="niveles-btn" class="mobile-nav-link menu-toggle-button" aria-expanded="false" aria-controls="niveles-submenu">
+                <span>Académico</span>
+                <svg xmlns="http://www.w3.org/2000/svg" class="mobile-arrow-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                </svg>
+            </button>
+            <div id="niveles-submenu" class="mobile-submenu hidden">
+                <a href="jardin.html" class="mobile-submenu-link">Kinder</a>
+                <a href="primaria.html" class="mobile-submenu-link">Primaria</a>
+                <a href="secundaria.html" class="mobile-submenu-link">Secundaria</a>
+            </div>
+            <a href="dptos.html" class="mobile-nav-link">
+                <span>Departamentos</span>
+            </a>
+            <a href="admisiones.html" class="mobile-nav-link">
+                <span>Admisiones</span>
+            </a>
+            <a href="contacto.html" class="mobile-nav-link">
+                <span>Contacto</span>
+            </a>
+        </nav>
+    </header>
+    <main>
+        <section id="inicio" class="hero-section hero-section-page" style="background-image: url('img/encabezado_nuestrocolegio.jpg');" data-scroll-mt aria-labelledby="main-heading">
+            <div class="hero-overlay-page"></div>
+            <div class="hero-content hero-content-page">
+                <h1 id="main-heading" class="page-title">NUESTRO COLEGIO</h1>
+            </div>
+        </section>
+        
+        <section id="historia" class="section-content-wrapper section-quienes" data-scroll-mt> 
+            <div class="section-container">
+                <h2 class="section-subtitle-primary">HISTORIA</h2>
+                <p class="section-text-default">
+                Fundado en el año 1992, nuestro Colegio ha sido diseñado y construido en un entorno pensado para fomentar el acercamiento con la naturaleza y con la visión de iniciar un colegio bilingüe de alto nivel académico, pero esencialmente familiar y personalizado, atendiendo todas las necesidades de bienestar del alumno. 
+                </p>
+                    <div class="text-left-content">
+                        <p class="section-text-default">Nuestro querido símbolo, el árbol de Ginkgo Biloba. Este árbol, único y resistente, nos recuerda nuestra Misión y Visión como Colegio. Sus cinco hojas, con forma de abanico, nos enseñan sobre los pilares que sostienen nuestra labor diaria:</p>
+                        <ul class="styled-list centered-values-list">
+                            <li class="value-item">EL RESPETO</li>
+                            <li class="value-item">EL COMPROMISO Y LA LEALTAD</li>
+                            <li class="value-item">LA INTEGRIDAD Y LA HONESTIDAD</li>
+                            <li class="value-item">LA RESPONSABILIDAD Y LA FORTALEZA</li>
+                            <li class="value-item">LA SOLIDARIDAD</li>
+                        </ul>
+                    </div>
+                <p class="section-text-default">
+                Estos valores son los cimientos sobre los que construimos cada día la educación de nuestros alumnos y son 
+                también el motor que impulsa cada acción y decisión que tomamos como institución.
+                </p>
+
+                <div class="four-column-grid gallery-grid">
+                    <img src="img/nuestrocolegio_historia_ch_1.jpg" alt="Antigua instalación del Colegio Wellspring" class="gallery-image" loading="lazy">
+                    <img src="img/nuestrocolegio_historia_ch_2.jpg" alt="Grupo de alumnos en actividad educativa histórica" class="gallery-image" loading="lazy">
+                    <img src="img/nuestrocolegio_historia_ch_3.jpg" alt="Evento escolar con familias y alumnos" class="gallery-image" loading="lazy">
+                    <img src="img/nuestrocolegio_historia_ch_4.jpg" alt="Fachada inicial del Colegio Wellspring" class="gallery-image" loading="lazy">
+                </div>
+
+                <div class="carousel-wrapper show-desktop">
+                    <div id="historia-carousel" class="flex-carousel">
+                        <img src="img/nuestrocolegio_historia_gr_1.jpg" alt="Instalación Antigua colegio 1" class="carousel-slide" loading="lazy">
+                        <img src="img/nuestrocolegio_historia_gr_2.jpg" alt="Instalación Antigua colegio 2" class="carousel-slide" loading="lazy">
+                        <img src="img/nuestrocolegio_historia_gr_3.jpg" alt="Instalación Antigua colegio 3" class="carousel-slide" loading="lazy">
+                        <img src="img/nuestrocolegio_historia_gr_4.jpg" alt="Instalación Antigua colegio 4" class="carousel-slide" loading="lazy">
+                    </div>
+                    <button id="historia-prev" aria-label="Anterior imagen" class="carousel-nav-btn carousel-prev">❮</button>
+                    <button id="historia-next" aria-label="Siguiente imagen" class="carousel-nav-btn carousel-next">❯</button>
+                    <div id="historia-dots" class="carousel-dots-container"></div>
+                </div>
+                <div class="carousel-wrapper show-mobile">
+                    <div id="historia-mobile-carousel" class="flex-carousel">
+                        <img src="img/nuestrocolegio_gr_1mob.jpg" alt="Instalación Antigua colegio 1" class="carousel-slide-mobile" loading="lazy">
+                        <img src="img/nuestrocolegio_gr_2mob.jpg" alt="Instalación Antigua colegio 2" class="carousel-slide-mobile" loading="lazy">
+                        <img src="img/nuestrocolegio_gr_3mob.jpg" alt="Instalación Antigua colegio 3" class="carousel-slide-mobile" loading="lazy">
+                        <img src="img/nuestrocolegio_gr_4mob.jpg" alt="Instalación Antigua colegio 4" class="carousel-slide-mobile" loading="lazy">
+                    </div>
+                    <button id="historia-mobile-prev" aria-label="Anterior imagen" class="carousel-nav-btn carousel-prev">❮</button>
+                    <button id="historia-mobile-next" aria-label="Siguiente imagen" class="carousel-nav-btn carousel-next">❯</button>
+                    <div id="historia-mobile-dots" class="carousel-dots-container"></div>
+                </div>
+
+                <div class="metrics-grid">
+                    <div class="metric-item" id="metric-1">
+                        <h3 class="metric-number">40.000 m²</h3>
+                        <p class="metric-label">DE CAMPUS</p>
+                    </div>
+                    <div class="metric-item metric-divider" id="metric-2">
+                        <h3 class="metric-number">30 años</h3>
+                        <p class="metric-label">ENSEÑANDO Y ACOMPAÑANDO</p>
+                    </div>
+                    <div class="metric-item" id="metric-3">
+                        <h3 class="metric-number">+800</h3>
+                        <p class="metric-label">EGRESADOS</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="infra" class="section-content-wrapper section-quienes" data-scroll-mt> 
+            <div class="section-container">
+                <h2 class="section-subtitle-primary">INFRAESTRUCTURA</h2>
+                <p class="section-text-default">
+                    Los distintos sectores se han distribuido dentro de las 4 hectáreas del campus buscando que el asentamiento respetara el plácido entorno natural, evitando la centralización, pero al mismo tiempo, contemplando en cada área las necesidades requeridas para su función específica.
+                </p>
+                <p class="section-text-default">
+                    El colegio está construido en una sola planta, cada nivel tiene su propio edificio con entrada independiente conectados en red y con acceso a Internet (WIFI). Además, cuenta con un edificio de talleres o workshops de uso compartido: laboratorio, sala de música, arte, scenery club, computación, smartboard, ideas lab y auditorio.
+                </p>
+                <p class="section-text-default">
+                    Las aulas están climatizadas por medio de aire acondicionado individual y calefacción central. Tiene un amplio comedor, una huerta en la cual participan los alumnos, un patio semi-cubierto destinado a actividades varias y cómodas áreas de amplios espacios verdes para los períodos de recreación.
+                </p>
+                <p class="section-text-default">
+                    El campo de deportes está ubicado dentro del perímetro escolar promoviendo así la práctica deportiva sin la necesidad del traslado de los alumnos. El predio tiene un excelente acceso, asfalto en perfecto estado, estacionamiento interno, y seguridad las 24 hs.
+                </p>
+
+                <div class="carousel-wrapper show-desktop">
+                    <div id="infra-carousel" class="flex-carousel">
+                        <img src="img/nuestrocolegio_infraestructura_gr_1.jpg" alt="Laboratorio del colegio" class="carousel-slide" loading="lazy">
+                        <img src="img/nuestrocolegio_infraestructura_gr_2.jpg" alt="Juegos en el jardin del colegio" class="carousel-slide" loading="lazy">
+                        <img src="img/nuestrocolegio_infraestructura_gr_3.jpg" alt="Jardin del colegio" class="carousel-slide" loading="lazy">
+                        <img src="img/nuestrocolegio_infraestructura_gr_4.jpg" alt="Juegos del colegio" class="carousel-slide" loading="lazy">
+                        <img src="img/nuestrocolegio_infraestructura_gr_5.jpg" alt="Entrada del colegio" class="carousel-slide" loading="lazy">
+                        <img src="img/nuestrocolegio_infraestructura_gr_6.jpg" alt="Sala de robotica" class="carousel-slide" loading="lazy">
+                    </div>
+                    <button id="infra-prev" aria-label="Anterior imagen de infraestructura" class="carousel-nav-btn carousel-prev">❮</button>
+                    <button id="infra-next" aria-label="Siguiente imagen de infraestructura" class="carousel-nav-btn carousel-next">❯</button>
+                    <div id="infra-dots" class="carousel-dots-container"></div>
+                </div>
+                <div class="carousel-wrapper show-mobile">
+                    <div id="infra-mobile-carousel" class="flex-carousel">
+                        <img src="img/nuestrocolegio_infraestructura_gr_mob1.jpg" alt="Laboratorio del colegio" class="carousel-slide-mobile" loading="lazy">
+                        <img src="img/nuestrocolegio_infraestructura_gr_mob2.jpg" alt="Juegos en el jardin del colegio" class="carousel-slide-mobile" loading="lazy">
+                        <img src="img/nuestrocolegio_infraestructura_gr_mob3.jpg" alt="Jardin del colegio" class="carousel-slide-mobile" loading="lazy">
+                        <img src="img/nuestrocolegio_infraestructura_gr_mob4.jpg" alt="Juegos del colegio" class="carousel-slide-mobile" loading="lazy">
+                        <img src="img/nuestrocolegio_infraestructura_gr_mob5.jpg" alt="Entrada del colegio" class="carousel-slide-mobile" loading="lazy">
+                        <img src="img/nuestrocolegio_infraestructura_gr_mob6.jpg" alt="Sala de robotica" class="carousel-slide-mobile" loading="lazy">
+                    </div>
+                    <button id="infra-mobile-prev" aria-label="Anterior imagen de infraestructura" class="carousel-nav-btn carousel-prev">❮</button>
+                    <button id="infra-mobile-next" aria-label="Siguiente imagen de infraestructura" class="carousel-nav-btn carousel-next">❯</button>
+                    <div id="infra-mobile-dots" class="carousel-dots-container"></div>
+                </div>
+                
+                <div class="four-column-grid gallery-grid">
+                    <img src="img/nuestrocolegio_infraestructura_ch_1.jpg" alt="Alumnos corriendo en el campo de deportes" class="gallery-image" loading="lazy">
+                    <img src="img/nuestrocolegio_infraestructura_ch_2.jpg" alt="Clase de alumnos de primaria" class="gallery-image" loading="lazy">
+                    <img src="img/nuestrocolegio_infraestructura_ch_3.jpg" alt="Alumnos participando en el aula" class="gallery-image" loading="lazy">
+                    <img src="img/nuestrocolegio_infraestructura_ch_4.jpg" alt="Evento escolar en el patio central" class="gallery-image" loading="lazy">
+                </div>
+            </div>
+        </section>
+
+        <section class="section-pilares">
+            <div class="containers mx-auto">
+                <div id="mision" class="mvv-card mvv-card-primary" data-scroll-mt> 
+                    <div class="mvv-content">
+                        <h3 class="mvv-title">Misión</h3>
+                        <p class="mvv-text">Nuestra principal misión es brindarles a nuestros alumnos una educación integral y, principalmente, bienestar dentro de un ámbito seguro, respetuoso e inclusivo, que les dé la posibilidad de construir aprendizajes para toda la vida.</p>
+                    </div>
+                </div>
+
+                <div id="vision" class="mvv-card mvv-card-white" data-scroll-mt> 
+                    <div class="mvv-content">
+                        <h3 class="mvv-title mvv-title-primary">Visión</h3>
+                        <p class="mvv-text mvv-text-default">Wellspring es una Institución de aprendizaje privada, bilingüe, mixta. Buscamos desarrollar fuertes valores éticos para permitir que nuestros alumnos se conviertan en ciudadanos íntegros, útiles y exitosos. En Wellspring deseamos que los alumnos sean el centro de su propio proceso de aprendizaje, en un entorno en donde se sientan queridos, respetados y motivados para poder desarrollar todo su potencial. Nuestro entorno fomenta el desarrollo individual, el pensamiento independiente, el espíritu deportivo y trabajamos por una interacción extensa y cercana con y entre la Comunidad.</p>
+                    </div>
+                </div>
+
+                <div id="valores" class="mvv-card mvv-card-secondary" data-scroll-mt> 
+                    <div class="mvv-content">
+                        <h3 class="mvv-title mvv-title-white">Valores</h3>
+                        <p class="mvv-text mvv-text-white">Promover el respeto, la solidaridad y la honestidad en la convivencia diaria. Actuar con responsabilidad, compromiso y coraje, defendiendo siempre la verdad y la justicia. Fomentar el liderazgo, la empatía y el cuidado del entorno mediante el ejemplo.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="internacional" class="section-content-wrapper section-quienes" data-scroll-mt> 
+            <div class="section-container">
+                <h2 class="section-subtitle-primary">PROGRAMAS INTERNACIONALES</h2>
+                <p class="section-text-default">
+                    Preparamos a nuestro alumnos para rendir exámenes internacionales desde el Nivel Primario hasta el final del Nivel Secundario.                 </p>
+                <p class="section-text-default">
+                    En Primaria, desde 2° EP los alumnos rinden exámenes de Trinity College London y Cambridge University.
+                    En secundaria, se presentan a niveles más avanzados: PET, FCE, CAE, IGCSE, y A/AS Levels.
+                </p>
+                <p class="section-text-default">
+                    Estas certificaciones fortalecen su trayectoria escolar, mejoran su desempeño lingüístico y los preparan para futuros desafíos académicos y profesionales.                </p>
+                <img src="img/programas_internacionales.jpg" alt="" class="carousel-slide">
+            </div>
+        </section>
+        
+    </main>
+
+    <footer id="contacto" class="main-footer" data-scroll-mt>
+            <div class="footer-convenios">
+            <div class="convenios-grid footer-convenios-grid">
+                <img src="img/pie_figaro_logo-01.png" alt="Logo de Fígaro" class="convenio-logo-sm" loading="lazy">
+                <img src="img/pie-cambridge.png" alt="Logo de Cambridge" class="convenio-logo-sm" loading="lazy">
+                <img src="img/pie-essarp.png" alt="Logo de ESSARP" class="convenio-logo-lg" loading="lazy">
+                <img src="img/pie-microsoft.png" alt="Logo de Microsoft" class="convenio-logo-sm" loading="lazy">
+                <img src="img/logo_handing.png" alt="Logo de Handing" class="convenio-logo-sm" loading="lazy">
+            </div>
+            <div class="copyright-year">
+                <p>CE 2025 | 2024</p>
+            </div>
+            </div>   
+            <div class="footer-social-bar">
+                <div class="container footer-content-flex">
+                <div class="footer-contact-info">
+                    <img src="img/ubicacion.png" alt="icono de ubicacion" class="logosredes">
+                    <span class="contact-detail-link">
+                    Las Camelias 3883, Del Viso (1669), Argentina | 
+                    info@wellspring.com.ar | 
+                    02320 300100
+                    </span>
+                </div>
+                <div class="social-links">
+                <p class="social-follow-text">Seguinos!</p> 
+                    <a href="https://www.facebook.com/colegiowellspring" target="_blank" class="social-link" aria-label="Facebook del Colegio Wellspring" class="social-text-link">
+                        <img src="img/facebook.png" alt="Logo de Facebook" class="logosredes">
+                    </a>
+                    <a href="https://www.instagram.com/colegiowellspring" target="_blank" aria-label="Instagram del Colegio Wellspring" class="social-text-link">
+                        <img src="img/instagram.png" alt="Logo de Instagram" class="logosredes">
+                    </a>
+                    <a href="https://www.linkedin.com/company/wellspring-school/" target="_blank" class="social-link" aria-label="Canal de Linkedin del Colegio Wellspring" class="social-text-link">
+                        <img src="img/linkedin.png" alt="Logo de Linkedin" class="logosredes">
+                    </a>
+                </div>
+                </div>
+            </div>
+    </footer>
+
+    <script src="js/main.js"></script> 
+</body>
+</html>
